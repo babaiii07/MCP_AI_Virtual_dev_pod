@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-dev-pod = mcp_dev_pod.main:app

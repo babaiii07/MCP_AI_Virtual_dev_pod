@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-multi-agent-dev-pod"
+version = "0.1.0"
+description = "MCP Multi-Agent Developer Pod with planner, coder, and tester agents"
+authors = [{name = "MCP Dev Pod", email = "dev@example.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "mcp>=1.0.0",
+    "ollama>=0.1.0",
+    "pydantic>=2.0.0",
+    "aiofiles>=23.0.0",
+    "gitpython>=3.1.0",
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "rich>=13.0.0",
+    "typer>=0.9.0",
+    "python-dotenv>=1.0.0",
+    "httpx>=0.25.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+]
+
+[project.scripts]
+mcp-dev-pod = "mcp_dev_pod.main:app"
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true

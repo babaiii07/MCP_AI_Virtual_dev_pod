@@ -1,0 +1,20 @@
+
+
+
+2025-09-05 18:43:29,738 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-05 18:43:29,742 - mcp_dev_pod.llm_client - INFO - LLM client initialized with model: llama3.1:8b
+2025-09-05 18:43:29,742 - mcp_dev_pod.coordinator - INFO - Agent coordinator initialized successfully
+2025-09-05 18:43:30,019 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-05 18:43:30,020 - mcp_dev_pod.llm_client - INFO - LLM client initialized with model: llama3.1:8b
+2025-09-05 18:43:30,020 - mcp_dev_pod.coordinator - INFO - Agent coordinator initialized successfully
+2025-09-05 18:43:30,020 - mcp_dev_pod.coordinator - INFO - Agent coordinator started
+2025-09-05 18:47:13,776 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-05 18:47:13,777 - mcp_dev_pod.llm_client - INFO - LLM client initialized with model: llama3.1:8b
+2025-09-05 18:47:13,777 - mcp_dev_pod.coordinator - INFO - Agent coordinator initialized successfully
+2025-09-05 18:47:13,778 - mcp_dev_pod.coordinator - INFO - Task submitted: 682275a0-a606-44f0-b27d-12447f01783f - Create a calculator
+2025-09-05 18:47:27,982 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-05 18:47:27,984 - mcp_dev_pod.llm_client - INFO - LLM client initialized with model: llama3.1:8b
+2025-09-05 18:47:27,984 - mcp_dev_pod.coordinator - INFO - Agent coordinator initialized successfully
+2025-09-05 18:47:38,901 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-05 18:47:38,902 - mcp_dev_pod.llm_client - INFO - LLM client initialized with model: llama3.1:8b
+2025-09-05 18:47:38,902 - mcp_dev_pod.coordinator - INFO - Agent coordinator initialized successfully
