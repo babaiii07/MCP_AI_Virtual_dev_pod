@@ -59,7 +59,7 @@ A sophisticated multi-agent system for autonomous development tasks using the Mo
 #### Linux/macOS
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone "https://github.com/babaiii07/MCP_AI_Virtual_dev_pod"
 cd mcp-multi-agent-dev-pod
 
 # Run installation script
@@ -107,8 +107,8 @@ CODER_TEMPERATURE=0.3
 TESTER_TEMPERATURE=0.5
 
 # Git Configuration
-GIT_AUTHOR_NAME=MCP Dev Pod
-GIT_AUTHOR_EMAIL=dev@example.com
+GIT_AUTHOR_NAME=Parthib Karak
+GIT_AUTHOR_EMAIL=parthibkarak2004@gmail.com
 
 # Workspace
 DEFAULT_WORKSPACE=./workspace
@@ -320,7 +320,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-- [Ollama](https://ollama.ai/) for LLM integration
 - [MCP](https://modelcontextprotocol.io/) for the protocol specification
 - [Llama 3.1](https://llama.meta.com/) for the language model
 - [Rich](https://rich.readthedocs.io/) for beautiful CLI output
