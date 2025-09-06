@@ -59,7 +59,7 @@ A sophisticated multi-agent system for autonomous development tasks using the Mo
 #### Linux/macOS
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone "https://github.com/babaiii07/MCP_AI_Virtual_dev_pod"
 cd mcp-multi-agent-dev-pod
 
 # Run installation script
